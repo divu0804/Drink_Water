@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3498db; /* Blue color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 5px;
+    color: #fff; /* White color */
+}
+
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glass {
+    margin: 15px;
+    height: 350px;
+    width: 150px;
+    border: 5px solid #2980b9; /* Darker blue color */
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White color */
+    overflow: hidden;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+
+.remained {
+    font-size: 20px;
+    height: 350px;
+    width: 150px;
+    visibility: visible;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+
+.remained span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    transition: color 0.5s ease;
+}
+
+.percentage {
+    background-color: #2980b9; /* Darker blue color */
+}
+
+.how-many-glass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.large-glass {
+    cursor: pointer;
+    margin: 5px;
+    padding: 15px;
+    border: 2px solid #2980b9; /* Darker blue color */
+    border-radius: 10px;
+    background-color: #3498db; /* Blue color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.large-glass:hover {
+    background-color: #2980b9; /* Darker blue color */
+    color: white;
+}
+
+.small {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2980b9; /* Darker blue color */
+    margin-bottom: 5px;
+}
+
+.reminder {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2980b9; /* Darker blue color */
+}
